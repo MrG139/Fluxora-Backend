@@ -1,0 +1,21 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "fix/issue-825-stop-background-jobs",
+    "fix/issue-835-leader-election-race-tests",
+    "main",
+    "origin"
+  ],
+  "parent": {
+    "fix/issue-825-stop-background-jobs": "main",
+    "fix/issue-835-leader-election-race-tests": "main",
+    "main": null,
+    "origin": "main"
+  },
+  "order": [
+    "main",
+    "fix/issue-825-stop-background-jobs",
+    "fix/issue-835-leader-election-race-tests",
+    "origin"
+  ]
+}
